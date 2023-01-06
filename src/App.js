@@ -1,25 +1,46 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ProductForYou from './screens/ProductForYou';
+import ProductsList from './screens/ProductsList';
+
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="overflow-x-hidden">
+      
+      <ProductsList></ProductsList>
+      <ProductForYou></ProductForYou>
+      
+         
+
+
+
+
+
+
+
+
+
+      
+
+      </div>
+     
+
+
+
+
+
+
+
+    
   );
 }
 
 export default App;
+
+//#f90
+//#151515
+// kala #000
